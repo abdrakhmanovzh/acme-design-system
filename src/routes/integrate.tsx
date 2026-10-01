@@ -8,7 +8,7 @@ export const Route = createFileRoute('/integrate')({
   component: IntegratePage
 })
 
-const registryUrl = 'https://acme-registry.vercel.app/r/{name}.json'
+const registryUrl = 'https://acme-design-system-psi.vercel.app/r/{name}.json'
 
 type Step = {
   body: string
@@ -28,7 +28,7 @@ const steps: Step[] = [
   {
     title: 'Install the foundation',
     body: 'Start with `base`. It pulls in Geist fonts, OKLCH theme tokens, base CSS, and the `cn` utility. Nothing else is written to your project.',
-    commands: `pnpm dlx shadcn@latest add https://acme-registry.vercel.app/r/base.json`
+    commands: `pnpm dlx shadcn@latest add https://acme-design-system-psi.vercel.app/r/base.json`
   },
   {
     title: 'Register the namespace',
