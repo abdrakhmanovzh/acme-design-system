@@ -1,0 +1,15 @@
+{
+  "short_name": "Acme Registry",
+  "name": "Acme Registry",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f9f9fa",
+  "background_color": "#f9f9fa"
+}
